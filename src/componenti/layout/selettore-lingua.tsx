@@ -1,24 +1,25 @@
+
 'use client';
 
-import { useLanguage } from '@/hooks/use-language';
+import { useLingua } from '@/hooks/use-lingua';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select';
-import { Label } from '@/components/ui/label';
+} from '@/componenti/ui/select';
+import { Label } from '@/componenti/ui/label';
 
-export function LanguageSwitcher() {
-  const { language, setLanguage, t } = useLanguage();
+export function SelettoreLingua() {
+  const { lingua, setLingua, t } = useLingua();
 
   return (
     <div className="flex flex-col space-y-2">
-      <Label htmlFor="lang-selector" className="text-sm font-medium">
+      <Label htmlFor="selettore-lingua" className="text-sm font-medium">
         {t('language_label')}
       </Label>
-      <Select value={language} onValueChange={(value) => setLanguage(value as typeof language)} name="lang-selector">
+      <Select value={lingua} onValueChange={(valore) => setLingua(valore as typeof lingua)} name="selettore-lingua">
         <SelectTrigger className="w-full">
           <SelectValue placeholder={t('language_label')} />
         </SelectTrigger>

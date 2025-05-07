@@ -1,27 +1,28 @@
+
 'use client';
 
 import { Moon, Sun } from 'lucide-react';
-import { useTheme } from '@/hooks/use-theme';
-import { useLanguage } from '@/hooks/use-language';
+import { useTema } from '@/hooks/use-tema';
+import { useLingua } from '@/hooks/use-lingua';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select';
-import { Label } from '@/components/ui/label';
+} from '@/componenti/ui/select';
+import { Label } from '@/componenti/ui/label';
 
-export function ThemeSwitcher() {
-  const { theme, setTheme } = useTheme();
-  const { t } = useLanguage();
+export function SelettoreTema() {
+  const { tema, setTema } = useTema();
+  const { t } = useLingua();
 
   return (
     <div className="flex flex-col space-y-2">
-      <Label htmlFor="theme-selector" className="text-sm font-medium">
+      <Label htmlFor="selettore-tema" className="text-sm font-medium">
         {t('theme_label')}
       </Label>
-      <Select value={theme} onValueChange={(value) => setTheme(value as typeof theme)} name="theme-selector" >
+      <Select value={tema} onValueChange={(valore) => setTema(valore as typeof tema)} name="selettore-tema" >
         <SelectTrigger className="w-full">
           <SelectValue placeholder={t('theme_label')} />
         </SelectTrigger>
