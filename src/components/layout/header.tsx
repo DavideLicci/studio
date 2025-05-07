@@ -13,7 +13,7 @@ const navItems = [
   { href: '/', labelKey: 'nav_home' },
   { href: '/projects', labelKey: 'nav_projects' },
   { href: '/about', labelKey: 'nav_about' },
-  { href: '/contacts', labelKey: 'nav_contacts' },
+  // { href: '/contacts', labelKey: 'nav_contacts' }, // Removed Contacts
 ];
 
 export function Header() {

@@ -1,3 +1,4 @@
+
 {
   "app_title": {
     "it": "Portfolio Pro",
@@ -14,10 +15,6 @@
   "nav_about": {
     "it": "Chi Sono",
     "en": "About"
-  },
-  "nav_contacts": {
-    "it": "Contatti",
-    "en": "Contacts"
   },
   "settings_label": {
     "it": "Impostazioni",
@@ -134,38 +131,6 @@
   "skills_title": {
     "it": "Competenze",
     "en": "Skills"
-  },
-  "contacts_title": {
-    "it": "Contattami",
-    "en": "Contact Me"
-  },
-  "contacts_intro": {
-    "it": "Sono sempre aperto a nuove opportunità e collaborazioni. Non esitare a scrivermi!",
-    "en": "I'm always open to new opportunities and collaborations. Feel free to reach out!"
-  },
-  "contacts_name_label": {
-    "it": "Nome",
-    "en": "Name"
-  },
-  "contacts_email_label": {
-    "it": "Email",
-    "en": "Email"
-  },
-  "contacts_message_label": {
-    "it": "Messaggio",
-    "en": "Message"
-  },
-  "contacts_send_button": {
-    "it": "Invia Messaggio",
-    "en": "Send Message"
-  },
-    "contacts_message_sent_title": {
-    "it": "Messaggio Inviato!",
-    "en": "Message Sent!"
-  },
-  "contacts_message_sent_desc": {
-    "it": "Grazie per il tuo messaggio. Ti contatteremo presto.",
-    "en": "Thank you for your message. We'll be in touch soon."
   },
   "footer_text": {
     "it": "© {year} Portfolio Pro. Tutti i diritti riservati.",

@@ -24,35 +24,8 @@ export interface Project {
   originalDescriptionKey?: string;
 }
 
-const initialProjectsData: Omit<Project, 'title' | 'description'> & { titleKey: string; descriptionKey: string }[] = [
-  {
-    id: 'alpha',
-    titleKey: 'project_1_title',
-    descriptionKey: 'project_1_desc',
-    category: 'technical',
-    projectUrl: '#',
-  },
-  {
-    id: 'beta',
-    titleKey: 'project_2_title',
-    descriptionKey: 'project_2_desc',
-    category: 'technical',
-    projectUrl: '#',
-  },
-  {
-    id: 'gamma',
-    titleKey: 'project_3_title',
-    descriptionKey: 'project_3_desc',
-    category: 'humanistic',
-  },
-  {
-    id: 'delta',
-    titleKey: 'project_4_title',
-    descriptionKey: 'project_4_desc',
-    category: 'humanistic',
-    projectUrl: '#',
-  },
-];
+// Remove initial projects
+const initialProjectsData: Omit<Project, 'title' | 'description'> & { titleKey: string; descriptionKey: string }[] = [];
 
 export default function ProjectsPage() {
   const { t } = useLanguage();
@@ -100,8 +73,9 @@ export default function ProjectsPage() {
           <Image 
             src={project.imageDataUri} 
             alt={t('project_image_alt', { title: project.title })} 
-            layout="fill" 
-            objectFit="cover"
+            fill={true}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            style={{objectFit: 'cover'}}
             data-ai-hint={`${project.category} ${project.title.substring(0,15)}`}
           />
         </div>
