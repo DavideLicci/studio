@@ -64,32 +64,56 @@
     "en": "My Projects"
   },
   "projects_intro": {
-    "it": "Una selezione dei miei lavori più recenti e significativi.",
-    "en": "A selection of my most recent and significant works."
+    "it": "Una selezione dei miei lavori più recenti e significativi, suddivisi per categoria.",
+    "en": "A selection of my most recent and significant works, divided by category."
+  },
+  "projects_technical_title": {
+    "it": "Progetti Tecnici",
+    "en": "Technical Projects"
+  },
+  "projects_humanistic_title": {
+    "it": "Progetti Umanistici",
+    "en": "Humanistic Projects"
+  },
+  "projects_no_technical_projects": {
+    "it": "Nessun progetto tecnico disponibile al momento.",
+    "en": "No technical projects available at the moment."
+  },
+  "projects_no_humanistic_projects": {
+    "it": "Nessun progetto umanistico disponibile al momento.",
+    "en": "No humanistic projects available at the moment."
   },
   "project_1_title": {
     "it": "Progetto Alpha",
     "en": "Project Alpha"
   },
   "project_1_desc": {
-    "it": "Descrizione del Progetto Alpha. Una fantastica applicazione web.",
-    "en": "Description of Project Alpha. An amazing web application."
+    "it": "Descrizione del Progetto Alpha. Una fantastica applicazione web con backend robusto e API efficienti.",
+    "en": "Description of Project Alpha. An amazing web application with a robust backend and efficient APIs."
   },
   "project_2_title": {
     "it": "Progetto Beta",
     "en": "Project Beta"
   },
   "project_2_desc": {
-    "it": "Descrizione del Progetto Beta. Una soluzione mobile innovativa.",
-    "en": "Description of Project Beta. An innovative mobile solution."
+    "it": "Descrizione del Progetto Beta. Una soluzione mobile innovativa sviluppata con tecnologie cross-platform.",
+    "en": "Description of Project Beta. An innovative mobile solution developed with cross-platform technologies."
   },
   "project_3_title": {
     "it": "Progetto Gamma",
     "en": "Project Gamma"
   },
   "project_3_desc": {
-    "it": "Descrizione del Progetto Gamma. Una piattaforma e-commerce scalabile.",
-    "en": "Description of Project Gamma. A scalable e-commerce platform."
+    "it": "Descrizione del Progetto Gamma. Un saggio sull'impatto sociale dell'intelligenza artificiale.",
+    "en": "Description of Project Gamma. An essay on the societal impact of artificial intelligence."
+  },
+  "project_4_title": {
+    "it": "Progetto Delta",
+    "en": "Project Delta"
+  },
+  "project_4_desc": {
+    "it": "Descrizione del Progetto Delta. Una serie di illustrazioni digitali che esplorano temi filosofici.",
+    "en": "Description of Project Delta. A series of digital illustrations exploring philosophical themes."
   },
   "view_project_details": {
     "it": "Dettagli Progetto",
@@ -100,12 +124,12 @@
     "en": "About Me"
   },
   "about_intro_1": {
-    "it": "Sono uno sviluppatore appassionato con esperienza nella creazione di applicazioni web moderne e intuitive.",
-    "en": "I am a passionate developer with experience in creating modern and intuitive web applications."
+    "it": "Sono uno sviluppatore appassionato con esperienza nella creazione di applicazioni web moderne e intuitive, e un forte interesse per le discipline umanistiche.",
+    "en": "I am a passionate developer with experience in creating modern and intuitive web applications, and a strong interest in humanistic disciplines."
   },
   "about_intro_2": {
-    "it": "Il mio obiettivo è tradurre idee complesse in soluzioni digitali eleganti ed efficienti.",
-    "en": "My goal is to translate complex ideas into elegant and efficient digital solutions."
+    "it": "Il mio obiettivo è tradurre idee complesse in soluzioni digitali eleganti ed efficienti, che abbiano anche un impatto significativo.",
+    "en": "My goal is to translate complex ideas into elegant and efficient digital solutions that also have a significant impact."
   },
   "skills_title": {
     "it": "Competenze",

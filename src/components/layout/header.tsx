@@ -1,3 +1,4 @@
+// src/components/layout/header.tsx
 'use client';
 
 import Link from 'next/link';
@@ -5,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import { cn } from '@/lib/utils';
 import { SettingsPanel } from './settings-panel';
 import { TranslatedText } from '@/components/shared/translated-text';
-import { CodeXml } from 'lucide-react';
+import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 
 
 const navItems = [
@@ -21,8 +22,13 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 max-w-screen-2xl items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2 text-lg font-semibold text-primary hover:text-primary/80 transition-colors">
-          <CodeXml className="h-7 w-7" />
+        <Link href="/" className="flex items-center space-x-3 text-lg font-semibold text-primary hover:text-primary/80 transition-colors">
+          <Avatar className="h-8 w-8">
+            {/* <AvatarImage src="/path/to/profile.jpg" alt="User Name" /> */}
+            <AvatarFallback className="bg-primary text-primary-foreground text-sm">
+              PP
+            </AvatarFallback>
+          </Avatar>
           <TranslatedText translationKey="app_title" />
         </Link>
         
@@ -32,8 +38,8 @@ export function Header() {
               key={item.href}
               href={item.href}
               className={cn(
-                'transition-colors hover:text-foreground/80',
-                pathname === item.href ? 'text-foreground' : 'text-foreground/60'
+                'transition-all hover:text-foreground/80 hover:scale-105',
+                pathname === item.href ? 'text-foreground font-semibold' : 'text-foreground/70'
               )}
             >
               <TranslatedText translationKey={item.labelKey} />
