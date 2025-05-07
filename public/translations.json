@@ -219,5 +219,37 @@
   "form_valid_url_required": {
     "it": "Inserisci un URL valido",
     "en": "Please enter a valid URL"
+  },
+  "edit_project_button": {
+    "it": "Modifica",
+    "en": "Edit"
+  },
+  "delete_project_button": {
+    "it": "Elimina",
+    "en": "Delete"
+  },
+  "form_edit_project_dialog_title": {
+    "it": "Modifica Progetto",
+    "en": "Edit Project"
+  },
+  "form_edit_project_dialog_desc": {
+    "it": "Aggiorna i dettagli del tuo progetto.",
+    "en": "Update the details for your project."
+  },
+  "form_save_changes_button": {
+    "it": "Salva Modifiche",
+    "en": "Save Changes"
+  },
+  "delete_confirmation_title": {
+    "it": "Conferma Eliminazione",
+    "en": "Confirm Deletion"
+  },
+  "delete_confirmation_desc": {
+    "it": "Sei sicuro di voler eliminare il progetto \"{title}\"?",
+    "en": "Are you sure you want to delete the project \"{title}\"?"
+  },
+  "delete_button_confirm": {
+    "it": "Elimina",
+    "en": "Delete"
   }
 }

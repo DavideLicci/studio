@@ -1,55 +1,82 @@
 
 'use client';
 
+import type { ChangeEvent } from 'react';
 import { useState, useEffect, useMemo } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { TranslatedText } from '@/components/shared/translated-text';
-import { ExternalLink, Briefcase, Brain, ImageOff } from 'lucide-react';
+import { ExternalLink, Briefcase, Brain, ImageOff, Pencil, Trash2 } from 'lucide-react';
 import { useLanguage } from '@/hooks/use-language';
 import { ProjectFilters, type ProjectFilter } from '@/components/projects/project-filters';
 import { AddProjectDialog } from '@/components/projects/add-project-form';
+import { EditProjectDialog } from '@/components/projects/edit-project-form';
+import { DeleteProjectDialog } from '@/components/projects/delete-project-dialog';
 
 export interface Project {
   id: string;
-  title: string; // Actual display string
-  description: string; // Actual display string
+  title: string;
+  description: string;
   category: 'technical' | 'humanistic';
   projectUrl?: string;
   imageDataUri?: string;
-  // Keep original keys for potential future use or re-translation if needed, though not strictly used for display now
-  originalTitleKey?: string; 
-  originalDescriptionKey?: string;
 }
 
-// Remove initial projects
-const initialProjectsData: Omit<Project, 'title' | 'description'> & { titleKey: string; descriptionKey: string }[] = [];
+const PROJECTS_STORAGE_KEY = 'portfolioAppProjects_v1';
 
 export default function ProjectsPage() {
   const { t } = useLanguage();
   const [allProjects, setAllProjects] = useState<Project[]>([]);
   const [currentFilter, setCurrentFilter] = useState<ProjectFilter>('all');
+  const [editingProject, setEditingProject] = useState<Project | null>(null);
+  const [deletingProject, setDeletingProject] = useState<Project | null>(null);
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    const translatedInitialProjects = initialProjectsData.map(p => ({
-      ...p,
-      title: t(p.titleKey),
-      description: t(p.descriptionKey),
-      originalTitleKey: p.titleKey,
-      originalDescriptionKey: p.descriptionKey,
-    }));
-    // This ensures user-added projects persist across language changes but predefined ones are re-translated.
-    // A more robust solution might involve storing user-added projects in localStorage.
-    setAllProjects(prevProjects => {
-      const userAddedProjects = prevProjects.filter(p => !p.originalTitleKey);
-      return [...translatedInitialProjects, ...userAddedProjects];
-    });
-  }, [t]);
+    setIsClient(true);
+    if (typeof window !== 'undefined') {
+      const storedProjectsJson = localStorage.getItem(PROJECTS_STORAGE_KEY);
+      if (storedProjectsJson) {
+        try {
+          const storedProjects = JSON.parse(storedProjectsJson);
+          setAllProjects(storedProjects);
+        } catch (e) {
+          console.error("Failed to parse projects from localStorage", e);
+          localStorage.removeItem(PROJECTS_STORAGE_KEY);
+        }
+      }
+    }
+  }, []);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined' && isClient) {
+      // Only save if projects have been loaded or explicitly set,
+      // to avoid overwriting localStorage with an empty array on initial render.
+      if (allProjects.length > 0 || localStorage.getItem(PROJECTS_STORAGE_KEY)) {
+        localStorage.setItem(PROJECTS_STORAGE_KEY, JSON.stringify(allProjects));
+      } else if (allProjects.length === 0 && !localStorage.getItem(PROJECTS_STORAGE_KEY)) {
+        // If it's genuinely empty and nothing was in storage, still save empty to reflect this.
+        localStorage.setItem(PROJECTS_STORAGE_KEY, JSON.stringify([]));
+      }
+    }
+  }, [allProjects, isClient]);
 
   const handleAddProject = (newProject: Project) => {
     setAllProjects(prevProjects => [...prevProjects, newProject]);
+  };
+
+  const handleUpdateProject = (updatedProject: Project) => {
+    setAllProjects(prevProjects =>
+      prevProjects.map(p => (p.id === updatedProject.id ? updatedProject : p))
+    );
+    setEditingProject(null);
+  };
+
+  const handleDeleteConfirm = (projectId: string) => {
+    setAllProjects(prevProjects => prevProjects.filter(p => p.id !== projectId));
+    setDeletingProject(null);
   };
 
   const projectsToDisplay = useMemo(() => {
@@ -98,7 +125,7 @@ export default function ProjectsPage() {
           {project.description}
         </CardDescription>
       </CardContent>
-      <CardFooter className="p-6 bg-muted/20 dark:bg-muted/40 mt-auto">
+      <CardFooter className="p-6 bg-muted/20 dark:bg-muted/40 mt-auto flex-col space-y-3">
         {project.projectUrl ? (
           <Button asChild className="w-full transform hover:scale-105 transition-transform">
             <Link href={project.projectUrl} target="_blank" rel="noopener noreferrer">
@@ -111,9 +138,32 @@ export default function ProjectsPage() {
             <TranslatedText translationKey="view_project_details" />
           </Button>
         )}
+        <div className="flex w-full space-x-2">
+          <Button variant="outline" className="w-1/2" onClick={() => setEditingProject(project)}>
+            <Pencil className="mr-2 h-4 w-4" />
+            <TranslatedText translationKey="edit_project_button" />
+          </Button>
+          <Button variant="destructive" className="w-1/2" onClick={() => setDeletingProject(project)}>
+            <Trash2 className="mr-2 h-4 w-4" />
+            <TranslatedText translationKey="delete_project_button" />
+          </Button>
+        </div>
       </CardFooter>
     </Card>
   );
+
+  if (!isClient) {
+    // Render a loading state or null until client-side hydration is complete
+    // to prevent hydration mismatch from localStorage access.
+    // You can use your global loading component or a simpler one here.
+    return (
+      <div className="flex flex-col items-center justify-center min-h-[calc(100vh-12rem)] p-4 md:p-8 space-y-8">
+        {/* Simplified skeleton for projects page loading */}
+        <div className="h-12 w-1/2 rounded-md bg-muted animate-pulse"></div>
+        <div className="h-64 w-full max-w-3xl rounded-lg bg-muted animate-pulse"></div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-12">
@@ -161,6 +211,24 @@ export default function ProjectsPage() {
             <p className="text-muted-foreground text-center md:text-left"><TranslatedText translationKey="projects_no_humanistic_projects" /></p>
           )}
         </section>
+      )}
+
+      {editingProject && (
+        <EditProjectDialog
+          project={editingProject}
+          isOpen={!!editingProject}
+          onOpenChange={(open) => { if (!open) setEditingProject(null); }}
+          onEditProject={handleUpdateProject}
+        />
+      )}
+
+      {deletingProject && (
+        <DeleteProjectDialog
+          project={deletingProject}
+          isOpen={!!deletingProject}
+          onOpenChange={(open) => { if (!open) setDeletingProject(null); }}
+          onConfirmDelete={handleDeleteConfirm}
+        />
       )}
     </div>
   );
