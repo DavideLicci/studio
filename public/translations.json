@@ -1,0 +1,150 @@
+{
+  "app_title": {
+    "it": "Portfolio Pro",
+    "en": "Portfolio Pro"
+  },
+  "nav_home": {
+    "it": "Home",
+    "en": "Home"
+  },
+  "nav_projects": {
+    "it": "Progetti",
+    "en": "Projects"
+  },
+  "nav_about": {
+    "it": "Chi Sono",
+    "en": "About"
+  },
+  "nav_contacts": {
+    "it": "Contatti",
+    "en": "Contacts"
+  },
+  "settings_label": {
+    "it": "Impostazioni",
+    "en": "Settings"
+  },
+  "theme_label": {
+    "it": "Tema",
+    "en": "Theme"
+  },
+  "theme_light": {
+    "it": "Chiaro",
+    "en": "Light"
+  },
+  "theme_dark": {
+    "it": "Scuro",
+    "en": "Dark"
+  },
+  "language_label": {
+    "it": "Lingua",
+    "en": "Language"
+  },
+  "lang_it": {
+    "it": "Italiano",
+    "en": "Italian"
+  },
+  "lang_en": {
+    "it": "Inglese",
+    "en": "English"
+  },
+  "home_title": {
+    "it": "Benvenuto nel Mio Portfolio",
+    "en": "Welcome to My Portfolio"
+  },
+  "home_subtitle": {
+    "it": "Esplora i miei lavori e scopri di più su di me.",
+    "en": "Explore my work and learn more about me."
+  },
+  "home_cta_projects": {
+    "it": "Vai ai Progetti",
+    "en": "Go to Projects"
+  },
+  "projects_title": {
+    "it": "I Miei Progetti",
+    "en": "My Projects"
+  },
+  "projects_intro": {
+    "it": "Una selezione dei miei lavori più recenti e significativi.",
+    "en": "A selection of my most recent and significant works."
+  },
+  "project_1_title": {
+    "it": "Progetto Alpha",
+    "en": "Project Alpha"
+  },
+  "project_1_desc": {
+    "it": "Descrizione del Progetto Alpha. Una fantastica applicazione web.",
+    "en": "Description of Project Alpha. An amazing web application."
+  },
+  "project_2_title": {
+    "it": "Progetto Beta",
+    "en": "Project Beta"
+  },
+  "project_2_desc": {
+    "it": "Descrizione del Progetto Beta. Una soluzione mobile innovativa.",
+    "en": "Description of Project Beta. An innovative mobile solution."
+  },
+  "project_3_title": {
+    "it": "Progetto Gamma",
+    "en": "Project Gamma"
+  },
+  "project_3_desc": {
+    "it": "Descrizione del Progetto Gamma. Una piattaforma e-commerce scalabile.",
+    "en": "Description of Project Gamma. A scalable e-commerce platform."
+  },
+  "view_project_details": {
+    "it": "Dettagli Progetto",
+    "en": "Project Details"
+  },
+  "about_title": {
+    "it": "Chi Sono",
+    "en": "About Me"
+  },
+  "about_intro_1": {
+    "it": "Sono uno sviluppatore appassionato con esperienza nella creazione di applicazioni web moderne e intuitive.",
+    "en": "I am a passionate developer with experience in creating modern and intuitive web applications."
+  },
+  "about_intro_2": {
+    "it": "Il mio obiettivo è tradurre idee complesse in soluzioni digitali eleganti ed efficienti.",
+    "en": "My goal is to translate complex ideas into elegant and efficient digital solutions."
+  },
+  "skills_title": {
+    "it": "Competenze",
+    "en": "Skills"
+  },
+  "contacts_title": {
+    "it": "Contattami",
+    "en": "Contact Me"
+  },
+  "contacts_intro": {
+    "it": "Sono sempre aperto a nuove opportunità e collaborazioni. Non esitare a scrivermi!",
+    "en": "I'm always open to new opportunities and collaborations. Feel free to reach out!"
+  },
+  "contacts_name_label": {
+    "it": "Nome",
+    "en": "Name"
+  },
+  "contacts_email_label": {
+    "it": "Email",
+    "en": "Email"
+  },
+  "contacts_message_label": {
+    "it": "Messaggio",
+    "en": "Message"
+  },
+  "contacts_send_button": {
+    "it": "Invia Messaggio",
+    "en": "Send Message"
+  },
+    "contacts_message_sent_title": {
+    "it": "Messaggio Inviato!",
+    "en": "Message Sent!"
+  },
+  "contacts_message_sent_desc": {
+    "it": "Grazie per il tuo messaggio. Ti contatteremo presto.",
+    "en": "Thank you for your message. We'll be in touch soon."
+  },
+  "footer_text": {
+    "it": "© {year} Portfolio Pro. Tutti i diritti riservati.",
+    "en": "© {year} Portfolio Pro. All rights reserved."
+  }
+}
