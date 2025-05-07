@@ -170,5 +170,89 @@
   "footer_text": {
     "it": "© {year} Portfolio Pro. Tutti i diritti riservati.",
     "en": "© {year} Portfolio Pro. All rights reserved."
+  },
+  "add_project_button": {
+    "it": "Aggiungi Progetto",
+    "en": "Add Project"
+  },
+  "filter_by_category": {
+    "it": "Filtra per Categoria:",
+    "en": "Filter by Category:"
+  },
+  "filter_all": {
+    "it": "Tutti",
+    "en": "All"
+  },
+  "filter_technical": {
+    "it": "Tecnici",
+    "en": "Technical"
+  },
+  "filter_humanistic": {
+    "it": "Umanistici",
+    "en": "Humanistic"
+  },
+  "form_title_label": {
+    "it": "Titolo",
+    "en": "Title"
+  },
+  "form_description_label": {
+    "it": "Descrizione",
+    "en": "Description"
+  },
+  "form_category_label": {
+    "it": "Categoria",
+    "en": "Category"
+  },
+  "form_project_url_label": {
+    "it": "URL Progetto (Opzionale)",
+    "en": "Project URL (Optional)"
+  },
+  "form_image_label": {
+    "it": "Immagine (Opzionale)",
+    "en": "Image (Optional)"
+  },
+  "form_submit_button": {
+    "it": "Aggiungi Progetto",
+    "en": "Add Project"
+  },
+  "form_cancel_button": {
+    "it": "Annulla",
+    "en": "Cancel"
+  },
+  "form_add_project_dialog_title": {
+    "it": "Aggiungi Nuovo Progetto",
+    "en": "Add New Project"
+  },
+  "form_add_project_dialog_desc": {
+    "it": "Compila i dettagli per il tuo nuovo progetto.",
+    "en": "Fill in the details for your new project."
+  },
+  "form_category_technical": {
+    "it": "Tecnico",
+    "en": "Technical"
+  },
+  "form_category_humanistic": {
+    "it": "Umanistico",
+    "en": "Humanistic"
+  },
+  "project_image_alt": {
+    "it": "Immagine del progetto",
+    "en": "Project image"
+  },
+  "form_select_category_placeholder": {
+    "it": "Seleziona una categoria",
+    "en": "Select a category"
+  },
+  "form_uploading_image": {
+    "it": "Caricamento immagine...",
+    "en": "Uploading image..."
+  },
+  "form_field_required": {
+    "it": "Questo campo è obbligatorio",
+    "en": "This field is required"
+  },
+  "form_valid_url_required": {
+    "it": "Inserisci un URL valido",
+    "en": "Please enter a valid URL"
   }
 }
