@@ -251,5 +251,62 @@
   "delete_button_confirm": {
     "it": "Elimina",
     "en": "Delete"
+  },
+  "profile_image_label": {
+    "it": "Immagine Profilo",
+    "en": "Profile Image"
+  },
+  "upload_profile_image_button": {
+    "it": "Carica Immagine",
+    "en": "Upload Image"
+  },
+  "change_profile_image_button": {
+    "it": "Cambia Immagine",
+    "en": "Change Image"
+  },
+  "remove_profile_image_button": {
+    "it": "Rimuovi Immagine",
+    "en": "Remove Image"
+  },
+  "uploading_profile_image": {
+    "it": "Caricamento...",
+    "en": "Uploading..."
+  },
+  "profile_avatar_alt_text": {
+    "it": "Avatar del profilo utente",
+    "en": "User profile avatar"
+  },
+  "toast_profile_image_updated_title": {
+    "it": "Immagine Profilo Aggiornata",
+    "en": "Profile Image Updated"
+  },
+  "toast_profile_image_updated_desc": {
+    "it": "La tua immagine profilo è stata salvata.",
+    "en": "Your profile image has been saved."
+  },
+  "toast_profile_image_removed_title": {
+    "it": "Immagine Profilo Rimossa",
+    "en": "Profile Image Removed"
+  },
+  "toast_profile_image_removed_desc": {
+    "it": "La tua immagine profilo è stata rimossa.",
+    "en": "Your profile image has been removed."
+  },
+  "toast_file_too_large_title": {
+    "it": "File Troppo Grande",
+    "en": "File Too Large"
+  },
+  "toast_file_too_large_desc": {
+    "it": "La dimensione massima del file è {maxSize}.",
+    "en": "The maximum file size is {maxSize}."
+  },
+  "toast_image_upload_failed_title": {
+    "it": "Caricamento Fallito",
+    "en": "Upload Failed"
+  },
+  "toast_image_upload_failed_desc": {
+    "it": "Impossibile caricare l'immagine. Riprova.",
+    "en": "Could not upload image. Please try again."
   }
 }
+
