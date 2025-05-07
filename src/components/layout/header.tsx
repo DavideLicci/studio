@@ -71,7 +71,8 @@ export function Header() {
               <AvatarImage src={profileImageUri} alt={t('profile_avatar_alt_text')} />
             ) : (
               <AvatarFallback className="bg-primary text-primary-foreground text-sm">
-                PP
+                {/* Use initials from translated app_title or a generic fallback */}
+                {isClient ? (t('app_title').split(' ').map(word => word[0]).join('').toUpperCase() || 'SP') : 'SP'}
               </AvatarFallback>
             )}
           </Avatar>

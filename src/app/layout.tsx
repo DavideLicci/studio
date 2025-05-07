@@ -9,8 +9,8 @@ import { Footer } from '@/components/layout/footer';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Portfolio Pro',
-  description: 'A personal portfolio website built with Next.js and Tailwind CSS, featuring theme and language switching.',
+  title: 'Sito personale',
+  description: 'Un sito personale costruito con Next.js e Tailwind CSS, con cambio di tema e lingua.',
 };
 
 export default function RootLayout({

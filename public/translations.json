@@ -1,8 +1,8 @@
 
 {
   "app_title": {
-    "it": "Portfolio Pro",
-    "en": "Portfolio Pro"
+    "it": "Sito personale",
+    "en": "Personal Site"
   },
   "nav_home": {
     "it": "Home",
@@ -45,8 +45,8 @@
     "en": "English"
   },
   "home_title": {
-    "it": "Benvenuto nel Mio Portfolio",
-    "en": "Welcome to My Portfolio"
+    "it": "Benvenuto nel Mio Sito Personale",
+    "en": "Welcome to My Personal Site"
   },
   "home_subtitle": {
     "it": "Esplora i miei lavori e scopri di più su di me.",
@@ -133,8 +133,8 @@
     "en": "Skills"
   },
   "footer_text": {
-    "it": "© {year} Portfolio Pro. Tutti i diritti riservati.",
-    "en": "© {year} Portfolio Pro. All rights reserved."
+    "it": "© {year} Sito personale. Tutti i diritti riservati.",
+    "en": "© {year} Personal Site. All rights reserved."
   },
   "add_project_button": {
     "it": "Aggiungi Progetto",
