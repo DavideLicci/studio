@@ -1,4 +1,3 @@
-
 'use client';
 
 import { useLingua } from '@/hooks/use-lingua';
