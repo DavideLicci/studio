@@ -26,7 +26,7 @@ import {
   DialogClose,
 } from '@/componenti/ui/dialog';
 import { TestoTradotto } from '@/componenti/condivisi/testo-tradotto';
-import type { Progetto } from '@/app/progetti/pagina';
+import type { Progetto } from '@/app/progetti/page'; // Aggiornato il percorso
 import { useLingua } from '@/hooks/use-lingua';
 import Image from 'next/image';
 import { UploadCloud, X } from 'lucide-react';

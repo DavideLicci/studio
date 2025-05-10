@@ -12,7 +12,7 @@ import {
 } from "@/componenti/ui/alert-dialog";
 import { Button } from "@/componenti/ui/button";
 import { TestoTradotto } from "@/componenti/condivisi/testo-tradotto";
-import type { Progetto } from "@/app/progetti/pagina";
+import type { Progetto } from "@/app/progetti/page"; // Aggiornato il percorso
 import { useLingua } from "@/hooks/use-lingua";
 
 interface DialogEliminaProgettoProps {
