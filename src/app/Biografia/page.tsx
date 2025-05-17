@@ -12,10 +12,13 @@ export default function PaginaBiografia() {
 
       <section className="space-y-5 text-lg leading-relaxed text-foreground/90 animate-in fade-in slide-in-from-bottom-10 duration-700 delay-200">
         <p><TestoTradotto translationKey="bio_p1" /></p>
-        <p><TestoTradotto translationKey="bio_p2" /></p>
-        <p><TestoTradotto translationKey="bio_p3" /></p>
+        <p><TestoTradotto translationKey="bio_p2_part1" /></p>
+        <p><TestoTradotto translationKey="bio_p2_part2" /></p>
+        <p><TestoTradotto translationKey="bio_p3_part1" /></p>
+        <p><TestoTradotto translationKey="bio_p3_part2" /></p>
         <p><TestoTradotto translationKey="bio_p4" /></p>
-        <p><TestoTradotto translationKey="bio_p5" /></p>
+        <p><TestoTradotto translationKey="bio_p5_part1" /></p>
+        <p><TestoTradotto translationKey="bio_p5_part2" /></p>
         
         <blockquote className="my-8 p-6 border-l-4 border-primary bg-muted/50 rounded-r-md shadow-md animate-in fade-in zoom-in-95 delay-500 duration-700">
           <p className="text-2xl font-semibold italic text-primary mb-3">"<TestoTradotto translationKey="bio_quote_greek" />"</p>
