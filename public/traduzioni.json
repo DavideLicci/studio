@@ -1,6 +1,7 @@
+
 {
   "app_title": {
-    "it": "Sito Personale",
+    "it": "Sito personale",
     "en": "Personal Site"
   },
   "nav_home": {
@@ -17,31 +18,51 @@
   },
   "nav_pcto": {
     "it": "PCTO",
-    "en": "PCTO"
+    "en": "Internship"
   },
   "home_title": {
-    "it": "Benvenuto nel Mio Sito Personale",
-    "en": "Welcome to My Personal Site"
+    "it": "Benvenuto nel Mio Spazio Digitale",
+    "en": "Welcome to My Digital Space"
   },
   "home_subtitle": {
-    "it": "Esplora i miei lavori, scopri di più su di me.",
-    "en": "Explore my work, learn more about me."
+    "it": "Esplora i miei progetti, scopri di più su di me e sul mio percorso.",
+    "en": "Explore my projects, learn more about me and my journey."
   },
   "home_cta_projects": {
-    "it": "Guarda i Progetti",
-    "en": "View Projects"
+    "it": "Vai ai Progetti",
+    "en": "Go to Projects"
   },
   "projects_title": {
     "it": "I Miei Progetti",
     "en": "My Projects"
   },
   "projects_intro": {
-    "it": "Una selezione dei miei lavori recenti, che spaziano da progetti tecnici a esplorazioni più umanistiche.",
-    "en": "A selection of my recent work, ranging from technical projects to more humanistic explorations."
+    "it": "Una raccolta dei miei lavori, che spaziano da progetti tecnici a esplorazioni più umanistiche.",
+    "en": "A collection of my works, ranging from technical projects to more humanistic explorations."
+  },
+  "projects_technical_title": {
+    "it": "Progetti Tecnici",
+    "en": "Technical Projects"
+  },
+  "projects_humanistic_title": {
+    "it": "Progetti Umanistici",
+    "en": "Humanistic Projects"
+  },
+  "projects_no_technical_projects": {
+    "it": "Nessun progetto tecnico disponibile al momento.",
+    "en": "No technical projects available at the moment."
+  },
+  "projects_no_humanistic_projects": {
+    "it": "Nessun progetto umanistico disponibile al momento.",
+    "en": "No humanistic projects available at the moment."
+  },
+  "view_project_details": {
+    "it": "Vedi Dettagli",
+    "en": "View Details"
   },
   "filter_by_category": {
-    "it": "Filtra per categoria:",
-    "en": "Filter by category:"
+    "it": "Filtra per Categoria:",
+    "en": "Filter by Category:"
   },
   "filter_all": {
     "it": "Tutti",
@@ -59,30 +80,6 @@
     "it": "Aggiungi Progetto",
     "en": "Add Project"
   },
-  "projects_technical_title": {
-    "it": "Progetti Tecnici",
-    "en": "Technical Projects"
-  },
-  "projects_humanistic_title": {
-    "it": "Progetti Umanistici",
-    "en": "Humanistic Projects"
-  },
-  "projects_no_technical_projects": {
-    "it": "Nessun progetto tecnico da mostrare al momento. Prova ad aggiungerne uno!",
-    "en": "No technical projects to display at the moment. Try adding one!"
-  },
-  "projects_no_humanistic_projects": {
-    "it": "Nessun progetto umanistico da mostrare al momento. Prova ad aggiungerne uno!",
-    "en": "No humanistic projects to display at the moment. Try adding one!"
-  },
-  "project_image_alt": {
-    "it": "Immagine del progetto {title}",
-    "en": "Image for project {title}"
-  },
-  "view_project_details": {
-    "it": "Dettagli",
-    "en": "Details"
-  },
   "edit_project_button": {
     "it": "Modifica",
     "en": "Edit"
@@ -96,8 +93,16 @@
     "en": "Add New Project"
   },
   "form_add_project_dialog_desc": {
-    "it": "Compila i dettagli del tuo nuovo progetto qui sotto.",
-    "en": "Fill in the details of your new project below."
+    "it": "Compila i campi sottostanti per aggiungere un nuovo progetto al tuo portfolio.",
+    "en": "Fill in the fields below to add a new project to your portfolio."
+  },
+  "form_edit_project_dialog_title": {
+    "it": "Modifica Progetto",
+    "en": "Edit Project"
+  },
+  "form_edit_project_dialog_desc": {
+    "it": "Aggiorna i dettagli del progetto selezionato.",
+    "en": "Update the details of the selected project."
   },
   "form_title_label": {
     "it": "Titolo",
@@ -128,32 +133,8 @@
     "en": "Project URL (Optional)"
   },
   "form_image_label": {
-    "it": "Immagine Progetto (Opzionale, max 2MB)",
-    "en": "Project Image (Optional, max 2MB)"
-  },
-  "form_uploading_image": {
-    "it": "Caricamento immagine...",
-    "en": "Uploading image..."
-  },
-  "form_cancel_button": {
-    "it": "Annulla",
-    "en": "Cancel"
-  },
-  "form_submit_button": {
-    "it": "Aggiungi Progetto",
-    "en": "Add Project"
-  },
-  "form_edit_project_dialog_title": {
-    "it": "Modifica Progetto",
-    "en": "Edit Project"
-  },
-  "form_edit_project_dialog_desc": {
-    "it": "Modifica i dettagli del progetto qui sotto.",
-    "en": "Edit the project details below."
-  },
-  "form_save_changes_button": {
-    "it": "Salva Modifiche",
-    "en": "Save Changes"
+    "it": "Immagine Progetto (Opzionale)",
+    "en": "Project Image (Optional)"
   },
   "form_field_required": {
     "it": "Questo campo è obbligatorio.",
@@ -162,6 +143,26 @@
   "form_valid_url_required": {
     "it": "Inserisci un URL valido.",
     "en": "Please enter a valid URL."
+  },
+  "form_submit_button": {
+    "it": "Aggiungi Progetto",
+    "en": "Add Project"
+  },
+  "form_save_changes_button": {
+    "it": "Salva Modifiche",
+    "en": "Save Changes"
+  },
+  "form_cancel_button": {
+    "it": "Annulla",
+    "en": "Cancel"
+  },
+  "form_uploading_image": {
+    "it": "Caricamento immagine...",
+    "en": "Uploading image..."
+  },
+  "project_image_alt": {
+    "it": "Immagine del progetto {title}",
+    "en": "Image for project {title}"
   },
   "delete_confirmation_title": {
     "it": "Conferma Eliminazione",
@@ -172,28 +173,12 @@
     "en": "Are you sure you want to delete the project \"{title}\"? This action cannot be undone."
   },
   "delete_button_confirm": {
-    "it": "Sì, Elimina",
-    "en": "Yes, Delete"
-  },
-  "footer_text": {
-    "it": "© {year} Sito Personale. Realizzato da Davide Licci.",
-    "en": "© {year} Personal Site. Created by Davide Licci."
+    "it": "Elimina",
+    "en": "Delete"
   },
   "settings_label": {
     "it": "Impostazioni",
     "en": "Settings"
-  },
-  "language_label": {
-    "it": "Lingua",
-    "en": "Language"
-  },
-  "lang_it": {
-    "it": "Italiano",
-    "en": "Italian"
-  },
-  "lang_en": {
-    "it": "Inglese",
-    "en": "English"
   },
   "theme_label": {
     "it": "Tema",
@@ -207,13 +192,21 @@
     "it": "Scuro",
     "en": "Dark"
   },
+  "language_label": {
+    "it": "Lingua",
+    "en": "Language"
+  },
+  "lang_it": {
+    "it": "Italiano",
+    "en": "Italian"
+  },
+  "lang_en": {
+    "it": "Inglese",
+    "en": "English"
+  },
   "profile_image_label": {
     "it": "Immagine Profilo",
     "en": "Profile Image"
-  },
-  "profile_avatar_alt_text": {
-    "it": "Avatar del profilo utente",
-    "en": "User profile avatar"
   },
   "upload_profile_image_button": {
     "it": "Carica Immagine",
@@ -224,12 +217,16 @@
     "en": "Change Image"
   },
   "remove_profile_image_button": {
-    "it": "Rimuovi Immagine",
-    "en": "Remove Image"
+    "it": "Rimuovi",
+    "en": "Remove"
   },
   "uploading_profile_image": {
     "it": "Caricamento...",
     "en": "Uploading..."
+  },
+  "profile_avatar_alt_text": {
+    "it": "Avatar del profilo",
+    "en": "Profile avatar"
   },
   "toast_profile_image_updated_title": {
     "it": "Immagine Profilo Aggiornata",
@@ -252,8 +249,8 @@
     "en": "File Too Large"
   },
   "toast_file_too_large_desc": {
-    "it": "L'immagine deve essere inferiore a {maxSize}.",
-    "en": "Image must be smaller than {maxSize}."
+    "it": "L'immagine selezionata supera la dimensione massima di {maxSize}.",
+    "en": "The selected image exceeds the maximum size of {maxSize}."
   },
   "toast_image_upload_failed_title": {
     "it": "Caricamento Fallito",
@@ -263,20 +260,68 @@
     "it": "Impossibile caricare l'immagine. Riprova.",
     "en": "Could not upload image. Please try again."
   },
-  "pcto_title": {
-    "it": "Esperienza PCTO",
-    "en": "PCTO Experience"
-  },
-  "pcto_intro": {
-    "it": "Dettagli sulla mia esperienza di Percorsi per le Competenze Trasversali e per l'Orientamento.",
-    "en": "Details about my Transversal Skills and Orientation Paths experience."
-  },
-  "pcto_coming_soon": {
-    "it": "Contenuti in arrivo...",
-    "en": "Content coming soon..."
+  "footer_text": {
+    "it": "© {year} Davide Licci. Costruito con Next.js e Tailwind CSS.",
+    "en": "© {year} Davide Licci. Built with Next.js and Tailwind CSS."
   },
   "biography_page_title": {
-     "it": "La Mia Storia",
-     "en": "My Story"
+    "it": "Su di Me",
+    "en": "About Me"
+  },
+  "bio_p1": {
+    "it": "Mi chiamo Davide Licci, ho 19 anni e sono nato ad Ancona, ma ho sempre vissuto a Jesi. Frequento l’Istituto Tecnico IIS Marconi Pieralisi, indirizzo Informatica, e sono il più piccolo di tre fratelli.",
+    "en": "My name is Davide Licci, I am 19 years old and I was born in Ancona, but I have always lived in Jesi. I attend the IIS Marconi Pieralisi Technical Institute, specializing in Computer Science, and I am the youngest of three brothers."
+  },
+  "bio_p2": {
+    "it": "Mi piace pensare che non ho scelto informatica per un solo motivo, ma per una combinazione di fattori. È come se avessi trovato in questo mondo una sintesi tra logica e immaginazione, tra struttura e possibilità. La programmazione mi ha insegnato il valore della precisione, ma anche dell’errore. Ogni bug risolto è una lezione, ogni progetto un’occasione per capire come la tecnologia possa dialogare con l’umano.",
+    "en": "I like to think that I didn't choose computer science for just one reason, but for a combination of factors. It's as if I found in this world a synthesis between logic and imagination, between structure and possibility. Programming has taught me the value of precision, but also of error. Every bug fixed is a lesson, every project an opportunity to understand how technology can dialogue with the human."
+  },
+  "bio_p3": {
+    "it": "Fuori dalla scuola, coltivo diverse passioni che mi aiutano a rimanere in equilibrio: leggere, allenarmi, suonare la chitarra e ascoltare musica. In tutto questo, cerco sempre di crescere come persona. Mi definirei determinato ed empatico, anche se so di essere spesso testardo. A volte me ne pento, ma altre volte è proprio quella testardaggine a farmi andare avanti.",
+    "en": "Outside of school, I cultivate various passions that help me stay balanced: reading, working out, playing the guitar, and listening to music. In all of this, I always try to grow as a person. I would define myself as determined and empathetic, although I know I am often stubborn. Sometimes I regret it, but other times it is precisely that stubbornness that keeps me going."
+  },
+  "bio_p4": {
+    "it": "Le relazioni nella mia vita — familiari, scolastiche o affettive — mi hanno insegnato molto. Alcune sono state complicate, altre mi hanno sorpreso, ma tutte mi hanno lasciato qualcosa. Penso che conoscere gli altri sia un modo per conoscere meglio se stessi, e viceversa.",
+    "en": "The relationships in my life — family, school, or romantic — have taught me a lot. Some have been complicated, others have surprised me, but all have left me with something. I think that knowing others is a way to know oneself better, and vice versa."
+  },
+  "bio_p5": {
+    "it": "Per il mio futuro, sto valutando di iscrivermi a Medicina o Ingegneria Biomedica ad Ancona. Mi affascina l’idea di unire scienza e tecnologia al servizio della salute, della vita. È come se cercassi, in qualche modo, di restituire qualcosa. Anche la filosofia e la psicologia mi accompagnano spesso nei miei pensieri: mi piace ragionare su ciò che ci rende umani, e immaginare come l’intelligenza artificiale possa interagire con la nostra interiorità, senza sostituirla.",
+    "en": "For my future, I am considering enrolling in Medicine or Biomedical Engineering in Ancona. I am fascinated by the idea of ​​combining science and technology in the service of health, of life. It is as if I were trying, in some way, to give something back. Philosophy and psychology also often accompany my thoughts: I like to reflect on what makes us human, and imagine how artificial intelligence can interact with our interiority, without replacing it."
+  },
+  "bio_quote_greek": {
+    "it": "Ioien\" (ἰοίην).",
+    "en": "Ioien\" (ἰοίην)."
+  },
+  "bio_quote_explanation": {
+    "it": "È un ottativo del verbo greco \"eimi\", che significa “andare, andare oltre, venire”. È l’unica parola sopravvissuta di una poesia di Saffo, e viene spesso interpretata come un desiderio di superamento o evasione. Per me significa esattamente questo:",
+    "en": "It is an optative of the Greek verb \"eimi\", which means “to go, to go beyond, to come”. It is the only surviving word of a poem by Sappho, and is often interpreted as a desire for overcoming or evasion. For me it means exactly this:"
+  },
+  "bio_quote_meaning": {
+    "it": "possa io andare oltre.",
+    "en": "may I go beyond."
+  },
+  "bio_quote_meaning_elaboration": {
+    "it": "Oltre i miei limiti, oltre le aspettative, oltre le paure.",
+    "en": "Beyond my limits, beyond expectations, beyond fears."
+  },
+  "bio_p6": {
+    "it": "E se c’è qualcosa che voglio davvero lasciare, è questa volontà di andare avanti, anche quando non è facile. Perché ogni passo, se fatto con consapevolezza, è già un superamento.",
+    "en": "And if there is something I really want to leave behind, it is this will to move forward, even when it is not easy. Because every step, if taken with awareness, is already an overcoming."
+  },
+  "pcto_title": {
+    "it": "Esperienze PCTO",
+    "en": "Internship Experiences"
+  },
+  "pcto_intro": {
+    "it": "Dettagli sulle mie esperienze di Percorsi per le Competenze Trasversali e per l'Orientamento.",
+    "en": "Details about my Pathways for Transversal Skills and Orientation experiences."
+  },
+  "pcto_coming_soon": {
+    "it": "Contenuti in Arrivo",
+    "en": "Content Coming Soon"
+  },
+  "pcto_description_placeholder": {
+    "it": "Informazioni dettagliate sulle mie attività di PCTO saranno disponibili a breve.",
+    "en": "Detailed information about my internship activities will be available soon."
   }
 }
