@@ -1,7 +1,6 @@
-
 {
   "app_title": {
-    "it": "Sito personale",
+    "it": "Sito Personale",
     "en": "Personal Site"
   },
   "nav_home": {
@@ -13,136 +12,84 @@
     "en": "Projects"
   },
   "nav_about": {
-    "it": "Chi Sono",
+    "it": "Biografia",
     "en": "About"
   },
-  "settings_label": {
-    "it": "Impostazioni",
-    "en": "Settings"
-  },
-  "theme_label": {
-    "it": "Tema",
-    "en": "Theme"
-  },
-  "theme_light": {
-    "it": "Chiaro",
-    "en": "Light"
-  },
-  "theme_dark": {
-    "it": "Scuro",
-    "en": "Dark"
-  },
-  "language_label": {
-    "it": "Lingua",
-    "en": "Language"
-  },
-  "lang_it": {
-    "it": "Italiano",
-    "en": "Italian"
-  },
-  "lang_en": {
-    "it": "Inglese",
-    "en": "English"
+  "nav_pcto": {
+    "it": "PCTO",
+    "en": "PCTO"
   },
   "home_title": {
-    "it": "Benvenuto nel Mio Sito Personale",
-    "en": "Welcome to My Personal Site"
+    "it": "Benvenuto nel Mio Spazio Digitale",
+    "en": "Welcome to My Digital Space"
   },
   "home_subtitle": {
-    "it": "Esplora i miei lavori e scopri di più su di me.",
-    "en": "Explore my work and learn more about me."
+    "it": "Esplora i miei progetti, scopri di più su di me e mettiamoci in contatto.",
+    "en": "Explore my projects, learn more about me, and let's connect."
   },
   "home_cta_projects": {
-    "it": "Vai ai Progetti",
-    "en": "Go to Projects"
-  },
-  "projects_title": {
-    "it": "I Miei Progetti",
-    "en": "My Projects"
-  },
-  "projects_intro": {
-    "it": "Una selezione dei miei lavori più recenti e significativi, suddivisi per categoria.",
-    "en": "A selection of my most recent and significant works, divided by category."
-  },
-  "projects_technical_title": {
-    "it": "Progetti Tecnici",
-    "en": "Technical Projects"
-  },
-  "projects_humanistic_title": {
-    "it": "Progetti Umanistici",
-    "en": "Humanistic Projects"
-  },
-  "projects_no_technical_projects": {
-    "it": "Nessun progetto tecnico disponibile al momento.",
-    "en": "No technical projects available at the moment."
-  },
-  "projects_no_humanistic_projects": {
-    "it": "Nessun progetto umanistico disponibile al momento.",
-    "en": "No humanistic projects available at the moment."
-  },
-  "project_1_title": {
-    "it": "Progetto Alpha",
-    "en": "Project Alpha"
-  },
-  "project_1_desc": {
-    "it": "Descrizione del Progetto Alpha. Una fantastica applicazione web con backend robusto e API efficienti.",
-    "en": "Description of Project Alpha. An amazing web application with a robust backend and efficient APIs."
-  },
-  "project_2_title": {
-    "it": "Progetto Beta",
-    "en": "Project Beta"
-  },
-  "project_2_desc": {
-    "it": "Descrizione del Progetto Beta. Una soluzione mobile innovativa sviluppata con tecnologie cross-platform.",
-    "en": "Description of Project Beta. An innovative mobile solution developed with cross-platform technologies."
-  },
-  "project_3_title": {
-    "it": "Progetto Gamma",
-    "en": "Project Gamma"
-  },
-  "project_3_desc": {
-    "it": "Descrizione del Progetto Gamma. Un saggio sull'impatto sociale dell'intelligenza artificiale.",
-    "en": "Description of Project Gamma. An essay on the societal impact of artificial intelligence."
-  },
-  "project_4_title": {
-    "it": "Progetto Delta",
-    "en": "Project Delta"
-  },
-  "project_4_desc": {
-    "it": "Descrizione del Progetto Delta. Una serie di illustrazioni digitali che esplorano temi filosofici.",
-    "en": "Description of Project Delta. A series of digital illustrations exploring philosophical themes."
-  },
-  "view_project_details": {
-    "it": "Dettagli Progetto",
-    "en": "Project Details"
+    "it": "Guarda i Miei Progetti",
+    "en": "View My Projects"
   },
   "about_title": {
     "it": "Chi Sono",
     "en": "About Me"
   },
   "about_intro_1": {
-    "it": "Sono uno sviluppatore appassionato con esperienza nella creazione di applicazioni web moderne e intuitive, e un forte interesse per le discipline umanistiche.",
-    "en": "I am a passionate developer with experience in creating modern and intuitive web applications, and a strong interest in humanistic disciplines."
+    "it": "Ciao! Sono uno sviluppatore appassionato con un forte interesse per la creazione di esperienze digitali intuitive e performanti.",
+    "en": "Hi! I'm a passionate developer with a strong interest in creating intuitive and high-performing digital experiences."
   },
   "about_intro_2": {
-    "it": "Il mio obiettivo è tradurre idee complesse in soluzioni digitali eleganti ed efficienti, che abbiano anche un impatto significativo.",
-    "en": "My goal is to translate complex ideas into elegant and efficient digital solutions that also have a significant impact."
+    "it": "Questo portfolio è un viaggio attraverso le mie competenze, i miei progetti e la mia crescita professionale. Spero ti piaccia!",
+    "en": "This portfolio is a journey through my skills, projects, and professional growth. I hope you enjoy it!"
   },
   "skills_title": {
-    "it": "Competenze",
-    "en": "Skills"
+    "it": "Le Mie Competenze",
+    "en": "My Skills"
   },
-  "footer_text": {
-    "it": "© {year} Sito personale. Tutti i diritti riservati.",
-    "en": "© {year} Personal Site. All rights reserved."
+  "projects_title": {
+    "it": "I Miei Progetti",
+    "en": "My Projects"
   },
-  "add_project_button": {
-    "it": "Aggiungi Progetto",
-    "en": "Add Project"
+  "projects_intro": {
+    "it": "Una selezione dei lavori che mostrano la mia passione per lo sviluppo e la creatività.",
+    "en": "A selection of works showcasing my passion for development and creativity."
+  },
+  "projects_technical_title": {
+    "it": "Progetti Tecnici",
+    "en": "Technical Projects"
+  },
+  "projects_no_technical_projects": {
+    "it": "Nessun progetto tecnico disponibile al momento.",
+    "en": "No technical projects available at the moment."
+  },
+  "projects_humanistic_title": {
+    "it": "Progetti Umanistici",
+    "en": "Humanistic Projects"
+  },
+  "projects_no_humanistic_projects": {
+    "it": "Nessun progetto umanistico disponibile al momento.",
+    "en": "No humanistic projects available at the moment."
+  },
+  "project_image_alt": {
+    "it": "Immagine del progetto {title}",
+    "en": "Image for project {title}"
+  },
+  "view_project_details": {
+    "it": "Vedi Dettagli",
+    "en": "View Details"
+  },
+  "edit_project_button": {
+    "it": "Modifica",
+    "en": "Edit"
+  },
+  "delete_project_button": {
+    "it": "Elimina",
+    "en": "Delete"
   },
   "filter_by_category": {
-    "it": "Filtra per Categoria:",
-    "en": "Filter by Category:"
+    "it": "Filtra per categoria:",
+    "en": "Filter by category:"
   },
   "filter_all": {
     "it": "Tutti",
@@ -156,6 +103,34 @@
     "it": "Umanistici",
     "en": "Humanistic"
   },
+  "add_project_button": {
+    "it": "Aggiungi Progetto",
+    "en": "Add Project"
+  },
+  "form_add_project_dialog_title": {
+    "it": "Aggiungi Nuovo Progetto",
+    "en": "Add New Project"
+  },
+  "form_add_project_dialog_desc": {
+    "it": "Compila i campi sottostanti per aggiungere un nuovo progetto al tuo portfolio.",
+    "en": "Fill in the fields below to add a new project to your portfolio."
+  },
+  "form_edit_project_dialog_title": {
+    "it": "Modifica Progetto",
+    "en": "Edit Project"
+  },
+  "form_edit_project_dialog_desc": {
+    "it": "Modifica i dettagli del progetto selezionato.",
+    "en": "Modify the details of the selected project."
+  },
+  "form_field_required": {
+    "it": "Questo campo è obbligatorio.",
+    "en": "This field is required."
+  },
+  "form_valid_url_required": {
+    "it": "Inserisci un URL valido.",
+    "en": "Please enter a valid URL."
+  },
   "form_title_label": {
     "it": "Titolo",
     "en": "Title"
@@ -168,29 +143,9 @@
     "it": "Categoria",
     "en": "Category"
   },
-  "form_project_url_label": {
-    "it": "URL Progetto (Opzionale)",
-    "en": "Project URL (Optional)"
-  },
-  "form_image_label": {
-    "it": "Immagine (Opzionale)",
-    "en": "Image (Optional)"
-  },
-  "form_submit_button": {
-    "it": "Aggiungi Progetto",
-    "en": "Add Project"
-  },
-  "form_cancel_button": {
-    "it": "Annulla",
-    "en": "Cancel"
-  },
-  "form_add_project_dialog_title": {
-    "it": "Aggiungi Nuovo Progetto",
-    "en": "Add New Project"
-  },
-  "form_add_project_dialog_desc": {
-    "it": "Compila i dettagli per il tuo nuovo progetto.",
-    "en": "Fill in the details for your new project."
+  "form_select_category_placeholder": {
+    "it": "Seleziona una categoria",
+    "en": "Select a category"
   },
   "form_category_technical": {
     "it": "Tecnico",
@@ -200,41 +155,25 @@
     "it": "Umanistico",
     "en": "Humanistic"
   },
-  "project_image_alt": {
-    "it": "Immagine del progetto",
-    "en": "Project image"
+  "form_project_url_label": {
+    "it": "URL Progetto (opzionale)",
+    "en": "Project URL (optional)"
   },
-  "form_select_category_placeholder": {
-    "it": "Seleziona una categoria",
-    "en": "Select a category"
+  "form_image_label": {
+    "it": "Immagine Progetto (opzionale)",
+    "en": "Project Image (optional)"
   },
   "form_uploading_image": {
     "it": "Caricamento immagine...",
     "en": "Uploading image..."
   },
-  "form_field_required": {
-    "it": "Questo campo è obbligatorio",
-    "en": "This field is required"
+  "form_cancel_button": {
+    "it": "Annulla",
+    "en": "Cancel"
   },
-  "form_valid_url_required": {
-    "it": "Inserisci un URL valido",
-    "en": "Please enter a valid URL"
-  },
-  "edit_project_button": {
-    "it": "Modifica",
-    "en": "Edit"
-  },
-  "delete_project_button": {
-    "it": "Elimina",
-    "en": "Delete"
-  },
-  "form_edit_project_dialog_title": {
-    "it": "Modifica Progetto",
-    "en": "Edit Project"
-  },
-  "form_edit_project_dialog_desc": {
-    "it": "Aggiorna i dettagli del tuo progetto.",
-    "en": "Update the details for your project."
+  "form_submit_button": {
+    "it": "Aggiungi Progetto",
+    "en": "Add Project"
   },
   "form_save_changes_button": {
     "it": "Salva Modifiche",
@@ -245,44 +184,24 @@
     "en": "Confirm Deletion"
   },
   "delete_confirmation_desc": {
-    "it": "Sei sicuro di voler eliminare il progetto \"{title}\"?",
-    "en": "Are you sure you want to delete the project \"{title}\"?"
+    "it": "Sei sicuro di voler eliminare il progetto '{title}'? Questa azione è irreversibile.",
+    "en": "Are you sure you want to delete the project '{title}'? This action is irreversible."
   },
   "delete_button_confirm": {
     "it": "Elimina",
     "en": "Delete"
   },
-  "profile_image_label": {
-    "it": "Immagine Profilo",
-    "en": "Profile Image"
-  },
-  "upload_profile_image_button": {
-    "it": "Carica Immagine",
-    "en": "Upload Image"
-  },
-  "change_profile_image_button": {
-    "it": "Cambia Immagine",
-    "en": "Change Image"
-  },
-  "remove_profile_image_button": {
-    "it": "Rimuovi Immagine",
-    "en": "Remove Image"
-  },
-  "uploading_profile_image": {
-    "it": "Caricamento...",
-    "en": "Uploading..."
-  },
   "profile_avatar_alt_text": {
-    "it": "Avatar del profilo utente",
-    "en": "User profile avatar"
+    "it": "Avatar del profilo",
+    "en": "Profile avatar"
   },
   "toast_profile_image_updated_title": {
     "it": "Immagine Profilo Aggiornata",
     "en": "Profile Image Updated"
   },
   "toast_profile_image_updated_desc": {
-    "it": "La tua immagine profilo è stata salvata.",
-    "en": "Your profile image has been saved."
+    "it": "La tua immagine profilo è stata cambiata con successo.",
+    "en": "Your profile image has been successfully changed."
   },
   "toast_profile_image_removed_title": {
     "it": "Immagine Profilo Rimossa",
@@ -292,13 +211,37 @@
     "it": "La tua immagine profilo è stata rimossa.",
     "en": "Your profile image has been removed."
   },
+  "settings_label": {
+    "it": "Impostazioni",
+    "en": "Settings"
+  },
+  "profile_image_label": {
+    "it": "Immagine Profilo",
+    "en": "Profile Image"
+  },
+  "change_profile_image_button": {
+    "it": "Cambia Immagine",
+    "en": "Change Image"
+  },
+  "upload_profile_image_button": {
+    "it": "Carica Immagine",
+    "en": "Upload Image"
+  },
+  "remove_profile_image_button": {
+    "it": "Rimuovi Immagine",
+    "en": "Remove Image"
+  },
+  "uploading_profile_image": {
+    "it": "Caricamento immagine profilo...",
+    "en": "Uploading profile image..."
+  },
   "toast_file_too_large_title": {
     "it": "File Troppo Grande",
     "en": "File Too Large"
   },
   "toast_file_too_large_desc": {
-    "it": "La dimensione massima del file è {maxSize}.",
-    "en": "The maximum file size is {maxSize}."
+    "it": "Il file è troppo grande. Dimensione massima: {maxSize}.",
+    "en": "The file is too large. Maximum size: {maxSize}."
   },
   "toast_image_upload_failed_title": {
     "it": "Caricamento Fallito",
@@ -306,7 +249,46 @@
   },
   "toast_image_upload_failed_desc": {
     "it": "Impossibile caricare l'immagine. Riprova.",
-    "en": "Could not upload image. Please try again."
+    "en": "Failed to upload image. Please try again."
+  },
+  "language_label": {
+    "it": "Lingua",
+    "en": "Language"
+  },
+  "lang_it": {
+    "it": "Italiano",
+    "en": "Italian"
+  },
+  "lang_en": {
+    "it": "Inglese",
+    "en": "English"
+  },
+  "theme_label": {
+    "it": "Tema",
+    "en": "Theme"
+  },
+  "theme_light": {
+    "it": "Chiaro",
+    "en": "Light"
+  },
+  "theme_dark": {
+    "it": "Scuro",
+    "en": "Dark"
+  },
+  "footer_text": {
+    "it": "© {year} Sito Personale. Tutti i diritti riservati.",
+    "en": "© {year} Personal Site. All rights reserved."
+  },
+  "pcto_title": {
+    "it": "PCTO",
+    "en": "Work Experience"
+  },
+  "pcto_intro": {
+    "it": "Questa sezione è dedicata alle mie esperienze di Percorsi per le Competenze Trasversali e per l'Orientamento.",
+    "en": "This section is dedicated to my Work Experience and Orientation Pathways."
+  },
+  "pcto_coming_soon": {
+    "it": "Dettagli sulle mie esperienze PCTO saranno disponibili a breve.",
+    "en": "Details about my PCTO experiences will be available soon."
   }
 }
-

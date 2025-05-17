@@ -59,7 +59,8 @@ export function Header() {
   const elementiNavigazione = [
     { href: '/', labelKey: 'nav_home' },
     { href: '/progetti', labelKey: 'nav_projects' },
-    { href: '/chi-siamo', labelKey: 'nav_about' },
+    { href: '/Biografia', labelKey: 'nav_about' }, // Corretto il percorso
+    { href: '/pcto', labelKey: 'nav_pcto' },      // Nuovo link PCTO
   ];
 
   return (
