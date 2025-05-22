@@ -1,7 +1,7 @@
 
 {
   "app_title": {
-    "it": "Sito personale",
+    "it": "Sito Personale",
     "en": "Personal Site"
   },
   "nav_home": {
@@ -16,25 +16,13 @@
     "it": "Biografia",
     "en": "Biography"
   },
+  "nav_contact": {
+    "it": "Contatti",
+    "en": "Contacts"
+  },
   "nav_pcto": {
     "it": "PCTO",
     "en": "PCTO"
-  },
-  "home_title": {
-    "it": "Benvenuto nel Mio Spazio Digitale",
-    "en": "Welcome to My Digital Space"
-  },
-  "home_subtitle": {
-    "it": "Esplora i miei progetti, scopri la mia storia e connettiti con le mie passioni.",
-    "en": "Explore my projects, discover my story, and connect with my passions."
-  },
-  "home_cta_projects": {
-    "it": "Scopri i Progetti",
-    "en": "Discover Projects"
-  },
-  "footer_text": {
-    "it": "© {year} Sito personale. Tutti i diritti riservati.",
-    "en": "© {year} Personal Site. All rights reserved."
   },
   "settings_label": {
     "it": "Impostazioni",
@@ -64,13 +52,29 @@
     "it": "Inglese",
     "en": "English"
   },
+  "footer_text": {
+    "it": "© {year} Sito Personale. Tutti i diritti riservati.",
+    "en": "© {year} Personal Site. All rights reserved."
+  },
+  "home_title": {
+    "it": "Benvenuto nel Mio Spazio Personale",
+    "en": "Welcome to My Personal Space"
+  },
+  "home_subtitle": {
+    "it": "Esplora i miei progetti, la mia storia e le mie passioni.",
+    "en": "Explore my projects, my story, and my passions."
+  },
+  "home_cta_projects": {
+    "it": "Scopri i Progetti",
+    "en": "Discover Projects"
+  },
   "projects_title": {
     "it": "I Miei Progetti",
     "en": "My Projects"
   },
   "projects_intro": {
-    "it": "Una vetrina dei miei lavori, dalle sfide tecniche alle esplorazioni umanistiche.",
-    "en": "A showcase of my work, from technical challenges to humanistic explorations."
+    "it": "Una raccolta dei miei lavori, sia tecnici che umanistici.",
+    "en": "A collection of my works, both technical and humanistic."
   },
   "projects_technical_title": {
     "it": "Progetti Tecnici",
@@ -88,6 +92,26 @@
     "it": "Nessun progetto umanistico disponibile al momento.",
     "en": "No humanistic projects available at the moment."
   },
+  "view_project_details": {
+    "it": "Vedi Dettagli",
+    "en": "View Details"
+  },
+  "project_image_alt": {
+    "it": "Immagine del progetto {title}",
+    "en": "Image of project {title}"
+  },
+  "add_project_button": {
+    "it": "Aggiungi Progetto",
+    "en": "Add Project"
+  },
+  "edit_project_button": {
+    "it": "Modifica",
+    "en": "Edit"
+  },
+  "delete_project_button": {
+    "it": "Elimina",
+    "en": "Delete"
+  },
   "filter_by_category": {
     "it": "Filtra per categoria:",
     "en": "Filter by category:"
@@ -104,25 +128,13 @@
     "it": "Umanistici",
     "en": "Humanistic"
   },
-  "add_project_button": {
-    "it": "Aggiungi Progetto",
-    "en": "Add Project"
-  },
-  "edit_project_button": {
-    "it": "Modifica",
-    "en": "Edit"
-  },
-  "delete_project_button": {
-    "it": "Elimina",
-    "en": "Delete"
-  },
   "form_add_project_dialog_title": {
     "it": "Aggiungi Nuovo Progetto",
     "en": "Add New Project"
   },
   "form_add_project_dialog_desc": {
-    "it": "Compila i campi sottostanti per aggiungere un nuovo progetto alla tua lista.",
-    "en": "Fill in the fields below to add a new project to your list."
+    "it": "Compila i campi sottostanti per aggiungere un nuovo progetto al tuo portfolio.",
+    "en": "Fill in the fields below to add a new project to your portfolio."
   },
   "form_edit_project_dialog_title": {
     "it": "Modifica Progetto",
@@ -130,7 +142,7 @@
   },
   "form_edit_project_dialog_desc": {
     "it": "Modifica i dettagli del progetto selezionato.",
-    "en": "Modify the details of the selected project."
+    "en": "Edit the details of the selected project."
   },
   "form_title_label": {
     "it": "Titolo",
@@ -144,6 +156,14 @@
     "it": "Categoria",
     "en": "Category"
   },
+  "form_project_url_label": {
+    "it": "URL del Progetto (Opzionale)",
+    "en": "Project URL (Optional)"
+  },
+  "form_image_label": {
+    "it": "Immagine del Progetto (Opzionale)",
+    "en": "Project Image (Optional)"
+  },
   "form_select_category_placeholder": {
     "it": "Seleziona una categoria",
     "en": "Select a category"
@@ -155,18 +175,6 @@
   "form_category_humanistic": {
     "it": "Umanistico",
     "en": "Humanistic"
-  },
-  "form_project_url_label": {
-    "it": "URL Progetto (Opzionale)",
-    "en": "Project URL (Optional)"
-  },
-  "form_image_label": {
-    "it": "Immagine Progetto (Opzionale)",
-    "en": "Project Image (Optional)"
-  },
-  "form_uploading_image": {
-    "it": "Caricamento immagine...",
-    "en": "Uploading image..."
   },
   "form_field_required": {
     "it": "Questo campo è obbligatorio.",
@@ -188,9 +196,9 @@
     "it": "Annulla",
     "en": "Cancel"
   },
-  "view_project_details": {
-    "it": "Vedi Dettagli",
-    "en": "View Details"
+  "form_uploading_image": {
+    "it": "Caricamento immagine...",
+    "en": "Uploading image..."
   },
   "delete_confirmation_title": {
     "it": "Conferma Eliminazione",
@@ -229,8 +237,8 @@
     "en": "Profile Image Updated"
   },
   "toast_profile_image_updated_desc": {
-    "it": "La tua immagine profilo è stata aggiornata con successo.",
-    "en": "Your profile image has been successfully updated."
+    "it": "La tua immagine profilo è stata cambiata con successo.",
+    "en": "Your profile image has been successfully changed."
   },
   "toast_profile_image_removed_title": {
     "it": "Immagine Profilo Rimossa",
@@ -245,8 +253,8 @@
     "en": "File Too Large"
   },
   "toast_file_too_large_desc": {
-    "it": "La dimensione del file supera il limite di {maxSize}.",
-    "en": "File size exceeds the {maxSize} limit."
+    "it": "La dimensione del file non deve superare {maxSize}.",
+    "en": "File size should not exceed {maxSize}."
   },
   "toast_image_upload_failed_title": {
     "it": "Caricamento Fallito",
@@ -260,21 +268,17 @@
     "it": "Caricamento...",
     "en": "Uploading..."
   },
-  "project_image_alt":{
-    "it": "Immagine del progetto {title}",
-    "en": "Image for project {title}"
-  },
   "pcto_title": {
-    "it": "Esperienze PCTO",
-    "en": "PCTO Experiences"
+    "it": "PCTO",
+    "en": "Work Experience"
   },
   "pcto_intro": {
-    "it": "Dettagli sulle mie esperienze di Percorsi per le Competenze Trasversali e per l'Orientamento.",
-    "en": "Details about my Pathways for Transversal Skills and Orientation experiences."
+    "it": "Dettagli sulla mia esperienza di Percorsi per le Competenze Trasversali e per l'Orientamento.",
+    "en": "Details about my Transversal Skills and Orientation Pathways experience."
   },
   "pcto_coming_soon": {
-    "it": "Contenuti in arrivo!",
-    "en": "Content coming soon!"
+    "it": "Contenuti in arrivo...",
+    "en": "Content coming soon..."
   },
   "biography_page_title": {
     "it": "La Mia Storia",
@@ -289,8 +293,8 @@
     "en": "My name is Davide Licci, I am 19 years old and I was born in Ancona, but I have always lived in Jesi. I attend the IIS Marconi Pieralisi Technical Institute, specializing in Computer Science, and I am the youngest of three brothers."
   },
   "bio_title_informatics": {
-    "it": "Il Mio Percorso nell'Informatica",
-    "en": "My Journey in Informatics"
+    "it": "Passione per l'Informatica",
+    "en": "Passion for Informatics"
   },
   "bio_p2_part1": {
     "it": "Mi piace pensare che non ho scelto informatica per un solo motivo, ma per una combinazione di fattori. È come se avessi trovato in questo mondo una sintesi tra logica e immaginazione, tra struttura e possibilità.",
@@ -298,39 +302,39 @@
   },
   "bio_p2_part2": {
     "it": "La programmazione mi ha insegnato il valore della precisione, ma anche dell’errore. Ogni bug risolto è una lezione, ogni progetto un’occasione per capire come la tecnologia possa dialogare con l’umano.",
-    "en": "Programming has taught me the value of precision, but also of error. Every bug fixed is a lesson, every project an opportunity to understand how technology can dialogue with the human."
+    "en": "Programming taught me the value of precision, but also of error. Every bug fixed is a lesson, every project an opportunity to understand how technology can dialogue with the human."
   },
   "bio_title_interests": {
-    "it": "Passioni e Crescita Personale",
-    "en": "Passions and Personal Growth"
+    "it": "Interessi e Crescita Personale",
+    "en": "Interests and Personal Growth"
   },
   "bio_p3_part1": {
-    "it": "Fuori dalla scuola, coltivo diverse passioni che mi aiutano a rimanere in equilibrio: leggere, allenarmi, suonare la chitarra e ascoltare musica.",
-    "en": "Outside of school, I cultivate various passions that help me stay balanced: reading, working out, playing the guitar, and listening to music."
+    "it": "Fuori dalla scuola, coltivo diverse passioni che mi aiutano a rimanere in equilibrio: leggere, allenarmi, suonare la chitarra e ascoltare musica. In tutto questo, cerco sempre di crescere come persona.",
+    "en": "Outside of school, I cultivate various passions that help me stay balanced: reading, working out, playing the guitar, and listening to music. In all of this, I always try to grow as a person."
   },
   "bio_p3_part2": {
-    "it": "In tutto questo, cerco sempre di crescere come persona. Mi definirei determinato ed empatico, anche se so di essere spesso testardo. A volte me ne pento, ma altre volte è proprio quella testardaggine a farmi andare avanti.",
-    "en": "In all this, I always try to grow as a person. I would define myself as determined and empathetic, although I know I am often stubborn. Sometimes I regret it, but other times it is precisely that stubbornness that keeps me going."
+    "it": "Mi definirei determinato ed empatico, anche se so di essere spesso testardo. A volte me ne pento, ma altre volte è proprio quella testardaggine a farmi andare avanti.",
+    "en": "I would define myself as determined and empathetic, although I know I am often stubborn. Sometimes I regret it, but other times it is precisely that stubbornness that keeps me going."
   },
   "bio_title_relationships": {
-    "it": "L'Importanza delle Relazioni",
-    "en": "The Importance of Relationships"
+    "it": "Relazioni e Apprendimento",
+    "en": "Relationships and Learning"
   },
   "bio_p4": {
     "it": "Le relazioni nella mia vita — familiari, scolastiche o affettive — mi hanno insegnato molto. Alcune sono state complicate, altre mi hanno sorpreso, ma tutte mi hanno lasciato qualcosa. Penso che conoscere gli altri sia un modo per conoscere meglio se stessi, e viceversa.",
-    "en": "The relationships in my life — family, school, or romantic — have taught me a lot. Some have been complicated, others have surprised me, but all have left me with something. I think that knowing others is a way to know oneself better, and vice versa."
+    "en": "The relationships in my life - family, school, or affective - have taught me a lot. Some have been complicated, others have surprised me, but all have left me something. I think that knowing others is a way to know oneself better, and vice versa."
   },
   "bio_title_future": {
-    "it": "Sguardi al Futuro",
-    "en": "Looking to the Future"
+    "it": "Aspirazioni Future",
+    "en": "Future Aspirations"
   },
   "bio_p5_part1": {
     "it": "Per il mio futuro, sto valutando di iscrivermi a Medicina o Ingegneria Biomedica ad Ancona. Mi affascina l’idea di unire scienza e tecnologia al servizio della salute, della vita. È come se cercassi, in qualche modo, di restituire qualcosa.",
-    "en": "For my future, I am considering enrolling in Medicine or Biomedical Engineering in Ancona. I am fascinated by the idea of ​​combining science and technology at the service of health, of life. It's as if I were trying, in some way, to give something back."
+    "en": "For my future, I am considering enrolling in Medicine or Biomedical Engineering in Ancona. I am fascinated by the idea of combining science and technology at the service of health, of life. It's as if I were trying, in some way, to give something back."
   },
   "bio_p5_part2": {
     "it": "Anche la filosofia e la psicologia mi accompagnano spesso nei miei pensieri: mi piace ragionare su ciò che ci rende umani, e immaginare come l’intelligenza artificiale possa interagire con la nostra interiorità, senza sostituirla.",
-    "en": "Philosophy and psychology also often accompany me in my thoughts: I like to reflect on what makes us human, and imagine how artificial intelligence can interact with our inner selves, without replacing them."
+    "en": "Philosophy and psychology also often accompany my thoughts: I like to reflect on what makes us human, and imagine how artificial intelligence can interact with our interiority, without replacing it."
   },
   "bio_title_philosophy": {
     "it": "La Mia Filosofia: Ioien",
@@ -341,8 +345,8 @@
     "en": "Ioien (ἰοίην)"
   },
   "bio_quote_explanation": {
-    "it": "È un ottativo del verbo greco \"eimi\", che significa “andare, andare oltre, venire”. È l’unica parola sopravvissuta di una poesia di Saffo, e viene spesso interpretata come un desiderio di superamento o evasione. Per me significa esattamente questo:",
-    "en": "It is an optative of the Greek verb \"eimi\", meaning “to go, to go beyond, to come”. It is the only surviving word from a poem by Sappho, and is often interpreted as a desire for overcoming or evasion. For me it means exactly this:"
+    "it": "È un ottativo del verbo greco \"eimi\", che significa “andare, andare oltre, venire”. È l’unica parola sopravvissuta di una poesia di Saffo, e viene spesso interpretata come un desiderio di superamento o evasione.",
+    "en": "It is an optative of the Greek verb \"eimi\", meaning “to go, to go beyond, to come”. It is the only surviving word from a poem by Sappho, and is often interpreted as a desire for overcoming or escape."
   },
   "bio_quote_meaning": {
     "it": "possa io andare oltre",
@@ -355,5 +359,105 @@
   "bio_p6": {
     "it": "E se c’è qualcosa che voglio davvero lasciare, è questa volontà di andare avanti, anche quando non è facile. Perché ogni passo, se fatto con consapevolezza, è già un superamento.",
     "en": "And if there is something I really want to leave behind, it is this will to move forward, even when it is not easy. Because every step, if taken with awareness, is already an overcoming."
+  },
+  "pcto_main_title": {
+    "it": "Esperienza PCTO – Loccioni",
+    "en": "PCTO Experience – Loccioni"
+  },
+  "pcto_main_subtitle": {
+    "it": "Un'immersione nel mondo del lavoro, tra tecnologia e valori umani.",
+    "en": "An immersion in the world of work, between technology and human values."
+  },
+  "pcto_section_dove_titolo": {
+    "it": "Dove l’ho svolto",
+    "en": "Where I Did It"
+  },
+  "pcto_section_dove_testo": {
+    "it": "Durante il mio percorso scolastico ho svolto il PCTO presso Loccioni, un’azienda del territorio che mi ha colpito sin da subito, non solo per l’alto livello tecnologico dei progetti, ma soprattutto per la storia e il valore umano che porta con sé.",
+    "en": "During my school career, I carried out my PCTO at Loccioni, a local company that impressed me right away, not only for the high technological level of its projects but above all for the history and human value it carries."
+  },
+  "pcto_section_obiettivi_titolo": {
+    "it": "Obiettivi e ruolo",
+    "en": "Objectives and Role"
+  },
+  "pcto_section_obiettivi_testo": {
+    "it": "Il mio ruolo non è stato solo tecnico, ma anche organizzativo: ho avuto la possibilità di essere Project Manager del mio gruppo, coordinando il lavoro dei miei compagni nella realizzazione della parte Pick and Place di una macchina da test per iniettori automobilistici.",
+    "en": "My role was not only technical but also organizational: I had the opportunity to be the Project Manager of my group, coordinating my colleagues' work in creating the Pick and Place part of a test machine for automotive injectors."
+  },
+  "pcto_section_obiettivi_testo_p2": {
+    "it": "È stato un compito impegnativo, ma anche incredibilmente stimolante: ho dovuto gestire tempi, compiti e comunicazione interna, imparando cosa significa davvero lavorare in squadra con un obiettivo comune.",
+    "en": "It was a challenging but also incredibly stimulating task: I had to manage time, tasks, and internal communication, learning what it truly means to work as a team towards a common goal."
+  },
+  "pcto_section_struttura_titolo": {
+    "it": "Struttura del percorso",
+    "en": "Structure of the Path"
+  },
+  "pcto_section_struttura_testo_intro": {
+    "it": "L’esperienza si è articolata in più fasi:",
+    "en": "The experience was divided into several phases:"
+  },
+  "pcto_section_struttura_lista_1": {
+    "it": "Da marzo a maggio, con incontri ogni martedì e giovedì per la preparazione tecnica;",
+    "en": "From March to May, with meetings every Tuesday and Thursday for technical preparation;"
+  },
+  "pcto_section_struttura_lista_2": {
+    "it": "Da fine maggio all’8 giugno, con la prima fase operativa in azienda;",
+    "en": "From late May to June 8, with the first operational phase in the company;"
+  },
+  "pcto_section_struttura_lista_3": {
+    "it": "Dal 17 al 30 settembre, con la seconda fase di lavoro diretto sul progetto.",
+    "en": "From September 17 to 30, with the second phase of direct work on the project."
+  },
+  "pcto_section_struttura_conclusione": {
+    "it": "Questo approccio graduale mi ha permesso di consolidare le competenze prima di metterle davvero in pratica.",
+    "en": "This gradual approach allowed me to consolidate my skills before putting them into practice."
+  },
+  "pcto_section_colpito_titolo": {
+    "it": "Cosa mi ha colpito",
+    "en": "What Impressed Me"
+  },
+  "pcto_section_colpito_testo_p1": {
+    "it": "Oltre all’aspetto tecnico, ciò che più mi ha colpito è stato l’ambiente: il lavoro di squadra, la collaborazione e la comunicazione costante sono stati centrali.",
+    "en": "Beyond the technical aspect, what impressed me most was the environment: teamwork, collaboration, and constant communication were central."
+  },
+  "pcto_section_colpito_testo_p2": {
+    "it": "Mi ha profondamente colpito la storia dell’azienda, fondata su valori come la fiducia, il rispetto e il senso di appartenenza. Entrare in Loccioni significava sentirsi parte di una comunità, quasi di una famiglia.",
+    "en": "I was deeply impressed by the company's history, founded on values such as trust, respect, and a sense of belonging. Joining Loccioni meant feeling part of a community, almost a family."
+  },
+  "pcto_section_colpito_testo_p3": {
+    "it": "Ogni incontro era un’occasione per imparare, ma anche per costruire legami: ho stretto nuove amicizie e mi sono sentito davvero coinvolto.",
+    "en": "Every meeting was an opportunity to learn, but also to build bonds: I made new friends and felt truly involved."
+  },
+  "pcto_section_imparato_titolo": {
+    "it": "Cosa ho imparato",
+    "en": "What I Learned"
+  },
+  "pcto_section_imparato_testo_intro": {
+    "it": "Questa esperienza mi ha lasciato tanto, sia sul piano personale che professionale.",
+    "en": "This experience left me with a lot, both personally and professionally."
+  },
+  "pcto_section_imparato_lista_1": {
+    "it": "Ho acquisito fiducia in me stesso, imparando a gestire ruoli di responsabilità.",
+    "en": "I gained self-confidence, learning to manage roles of responsibility."
+  },
+  "pcto_section_imparato_lista_2": {
+    "it": "Ho sviluppato competenze trasversali come l’organizzazione, la leadership e la comunicazione.",
+    "en": "I developed transversal skills such as organization, leadership, and communication."
+  },
+  "pcto_section_imparato_lista_3": {
+    "it": "Ho capito che la tecnologia ha senso solo se è al servizio delle persone, e non fine a sé stessa.",
+    "en": "I understood that technology only makes sense if it serves people, and is not an end in itself."
+  },
+  "pcto_section_futuro_titolo": {
+    "it": "Collegamento al mio futuro",
+    "en": "Connection to My Future"
+  },
+  "pcto_section_futuro_testo_p1": {
+    "it": "L’esperienza in Loccioni ha rafforzato la mia volontà di proseguire su un percorso tecnico-scientifico in cui la componente umana sia centrale.",
+    "en": "The experience at Loccioni strengthened my desire to continue on a technical-scientific path where the human component is central."
+  },
+  "pcto_section_futuro_testo_p2": {
+    "it": "Sto infatti valutando facoltà come Ingegneria Biomedica o Medicina, proprio perché credo in un futuro dove la scienza e la tecnologia siano strumenti per migliorare concretamente la vita degli altri.",
+    "en": "In fact, I am considering faculties such as Biomedical Engineering or Medicine, precisely because I believe in a future where science and technology are tools to concretely improve the lives of others."
   }
 }
